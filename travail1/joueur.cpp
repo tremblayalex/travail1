@@ -43,3 +43,23 @@ void Joueur::enleverToutesLesCartes()
 {
 	indexDerniereCarteAJouer = 0;
 }
+
+string Joueur::getNomJoueur() const
+{
+	return nom;
+}
+
+int Joueur::getNombreVictoires() const
+{
+	return nombreVictoires;
+}
+
+int Joueur::getNombreDefaites() const
+{
+	return nombreDefaites;
+}
+
+Carte* Joueur::getCarte(const int& inIndexCarte) const
+{
+	return mainDuJoueur[inIndexCarte];
+}

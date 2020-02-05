@@ -25,5 +25,10 @@ public:
 	void ajouterUneDefaite();
 	void ajouterUneCarte(Carte* inCarte);
 	void enleverToutesLesCartes();
+
+	string getNomJoueur() const;
+	int getNombreVictoires() const;
+	int getNombreDefaites() const;
+	Carte* getCarte(const int& inIndexCarte) const;
 };
 #endif

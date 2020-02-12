@@ -8,6 +8,8 @@ class Donnees
 {
 public:
 	Carte lesCartes[maxCartes];
+	Joueur joueurUn;
+	Joueur joueurDeux;
 
 	Donnees();
 };
